@@ -19,7 +19,7 @@ function stopLoading() {
 }
 async function getQuotes() {
   loading();
-  const apiUrl = "https://animechan.vercel.app/api/random";
+  const apiUrl = " https://anime-chan.herokuapp.com/api";
   try {
     const response = await fetch(apiUrl);
     apiData = await response.json();
